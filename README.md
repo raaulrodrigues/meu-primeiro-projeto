@@ -28,8 +28,8 @@ Criar uma aplicação web funcional e responsiva onde o usuário:
 | 2 | CSS Designer | Layout geral e responsividade (`style.css`) |
 | 3 | CSS UI/UX | Estilos de feedback visual (`style.css`) |
 | 4 | JS DOM Handler | Manipulação de elementos e eventos (`script.js`) |
-| 5 | JS API Integrador | Requisição à API da OpenAI (`script.js`) |
-| 6 | Git Manager | Organização do repositório e branches |
+| Rafael | JS API Integrador | Requisição à API da OpenAI (`script.js`) |
+| Rafael | Git Manager | Organização do repositório e branches |
 
 ---
 
@@ -54,4 +54,5 @@ projeto-ia/
 3. Insira uma API Key válida da OpenAI.
 4. Digite sua pergunta e clique em **Perguntar**.
 
----
+
+

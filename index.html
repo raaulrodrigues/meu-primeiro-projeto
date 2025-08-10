@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Assistente-IA</title>
-  </head>
-  <body>
-    <script src="script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="chat_icon.ico" type="image/x-icon">
+  <title>Assistente IA</title>
+</head>
+
+<body>
+  <header>
+    <h1>Assistente de IA</h1>
+
+    <input type="password" id="apiKey" placeholder="API Key" />
+    
+    <select id="modelo">
+      <option value="">Selecione</option>
+      <option value="gpt-3.5-turbo">GPT-3.5</option>
+      <option value="gpt-4">GPT-4</option>
+    </select>
+  </header>
+
+  <main>
+    <textarea id="pergunta" placeholder="Digite sua
+pergunta..."></textarea>
+
+    <button id="btnPerguntar">Perguntar</button>
+    
+    <section id="respostaSection" class="hidden">
+      <h2>Resposta:</h2>
+      <p id="resposta"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
